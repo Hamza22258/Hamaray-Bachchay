@@ -1,4 +1,4 @@
-# Hamaray-Bachchy
+# Hamaray-Bachchay
 A full front end and back end organization web portal.
 
 Steps to follow
