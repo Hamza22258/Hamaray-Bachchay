@@ -5,7 +5,7 @@ Steps to follow
 
 Run all the sql queries.(DDL.sql, CONSTRAINTS.sql, TRIGGERS.sql, DATA_INSERTION.sql ) on oracle 11g preferred.
 
-Copy the Hamarey-Bachchay folder in htdocs folder. I have used a zend core server and htdocs folder is insides the installation directory of zend.
+Copy the Hamarey-Bachchay folder in htdocs folder. I have used a zend core server and htdocs folder is inside the installation directory of zend.
 
 Run the server as http://localhost:100/Hamarey-Bachchay/Main-Menu.html. Port may be different.
 
