@@ -1,0 +1,342 @@
+body {
+    background: #2bc0e4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaecc6, #2bc0e4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaecc6, #2bc0e4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.container {
+    margin-left: 14%;
+    margin-right: 14%;
+    font-family: "Courier New", Courier, monospace;
+    border: 3px solid;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background: #efefbb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.container-accompany {
+    margin-left: 14%;
+    margin-right: 14%;
+    font-family: "Courier New", Courier, monospace;
+    border: 3px solid;
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 3%;
+    background: #efefbb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-assignment {
+    margin-left: 14%;
+    margin-right: 14%;
+    font-family: "Courier New", Courier, monospace;
+    border: 3px solid;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 3%;
+    background: #efefbb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-student-per-class {
+    margin-left: 14%;
+    margin-right: 14%;
+    font-family: "Courier New", Courier, monospace;
+    border: 3px solid;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 3%;
+    background: #efefbb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+h2 {
+    text-align: start;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2bc0e4;
+    /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #eaecc6, #2bc0e4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #eaecc6, #2bc0e4);
+    text-shadow: 0 1px 2px rgba(black, 0.15);
+    cursor: pointer;
+}
+
+span:hover {
+    color: darkgrey;
+}
+
+input {
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+input:hover {
+    border-bottom: 1px solid red;
+}
+
+textarea {
+    background-color: lightblue;
+}
+
+.reason-parent-absence {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.assignment-reason-for-change {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.assignment-approved-by {
+    margin-top: 10px;
+}
+
+.student-info {
+    text-indent: 30%;
+    cursor: pointer;
+}
+
+.student-info :hover,
+.guardian-info :hover,
+.staff-only :hover {
+    background-color: burlywood;
+}
+
+.mother-name:hover {
+    background-color: burlywood;
+}
+
+.mother-contact:hover {
+    background-color: burlywood;
+}
+
+.mother-cnic:hover {
+    background-color: burlywood;
+}
+
+.mother-email:hover {
+    background-color: burlywood;
+}
+
+.mother-address:hover {
+    background-color: burlywood;
+}
+
+.father-name:hover {
+    background-color: burlywood;
+}
+
+.father-contact:hover {
+    background-color: burlywood;
+}
+
+.father-cnic:hover {
+    background-color: burlywood;
+}
+
+.father-email:hover {
+    background-color: burlywood;
+}
+
+.father-address:hover {
+    background-color: burlywood;
+}
+
+select {
+    background-color: lightblue;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.parent-info {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-indent: 20%;
+}
+
+.guardian-info {
+    cursor: pointer;
+    text-indent: 30%;
+}
+
+.staff-only {
+    cursor: pointer;
+    text-indent: 30%;
+}
+
+/* submit styling*/
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    33% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(3);
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    33% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(3);
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+div {
+    margin-top: 3px;
+}
+
+.button {
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #c06c84;
+    -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    color: #fff;
+    font-family: Lato, Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: background 0.3s, -webkit-transform 0.3s,
+        -webkit-box-shadow 0.3s;
+    transition: background 0.3s, -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s,
+        -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+    will-change: transform;
+}
+
+.button:hover {
+    background: #ae4b67;
+    -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+
+.button:active {
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, 1px, 0);
+    transform: translate3d(0, 1px, 0);
+}
+
+.pulse {
+    position: relative;
+}
+
+.pulse:before,
+.pulse:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    margin: auto;
+}
+
+.pulse:before {
+    -webkit-animation: pulse 1.5s infinite linear;
+    animation: pulse 1.5s infinite linear;
+}
+
+.pulse:after {
+    -webkit-animation: pulse 2s 0.4s infinite linear;
+    animation: pulse 2s 0.4s infinite linear;
+}
+
+.pulse:hover:before,
+.pulse:hover:after {
+    display: none;
+}
+
+
+
+
+
